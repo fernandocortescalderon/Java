@@ -17,7 +17,7 @@ public class Boolean {
         Scanner consola = new Scanner(System.in);
 
         System.out.println("¿Cuántos años tienes?");
-        int edad = consola.nextLine();
+        int edad = Integer.paraeInt(consola.nextLine());
         var esAdulto = edad >= 18;
 
         if (esAdulto) {
